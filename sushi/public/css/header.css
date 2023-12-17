@@ -1,0 +1,53 @@
+.header__nav{
+    display: flex;
+    overflow: hidden;
+    
+}
+ .header__logo{
+    flex: 1;
+    display: flex;
+    position: relative;
+    padding: 20px;
+    
+}
+.header__logo-overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+.header__logo h4{
+    padding-left: 50px;
+    padding-top: 16px;
+    color:#fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    font-size: 20px;
+}
+.header__menu,.header__menu-mobile{
+    padding: 20px;
+    flex: 1.236;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 64px;
+    list-style: none;
+
+}
+.header__menu li{
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: var(--secondary-color);
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 20px;
+    cursor: pointer;
+}
+.body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: var(--color-creamson);
+    
+}
+
+  
